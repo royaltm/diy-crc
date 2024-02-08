@@ -39,7 +39,7 @@ fn main() {
   assert_eq!(MyCrc7::crc(b"123456789"), 0x14);
   let crc = MyCrc7::crc::<u8>(&[]);
   let crc = MyCrc7::crc_with(crc, b"12345");
-  let crc = MyCrc7::crc_with(crc, b"6789");
+  let crc = MyCrc7::crc_with(crc, b"678");
   assert_eq!(MyCrc7::crc_with(crc, b"9"), 0x14);
 
   assert_eq!(Crc5Usb::name(), "CRC-5/USB");
