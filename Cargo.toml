@@ -1,0 +1,11 @@
+[package]
+name = "diy-crc"
+version = "0.1.0"
+edition = "2021"
+authors = ["Rafal Michalski"]
+license = "Apache-2.0"
+readme = "README.md"
+repository = "https://github.com/royaltm/diy-crc"
+description = "Build your own CRC tools."
+
+[dependencies]
