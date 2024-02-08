@@ -6,6 +6,6 @@ authors = ["Rafal Michalski"]
 license = "Apache-2.0"
 readme = "README.md"
 repository = "https://github.com/royaltm/diy-crc"
-description = "Build your own CRC tools."
+description = "There is always room for one more CRC implementation."
 
 [dependencies]
